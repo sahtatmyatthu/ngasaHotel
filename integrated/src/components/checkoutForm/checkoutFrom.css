@@ -1,0 +1,146 @@
+
+#messages {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+  display: none; /* hide initially, then show once the first message arrives */
+  background-color: #0a253c;
+  color: #00d924;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: var(--radius);
+  font-size: 0.7em;
+}
+.submit{
+  margin-top: 12px;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:#0071c2 ;
+ 
+}
+/*  */
+.rContainer {
+  background-color: gray;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reserveItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rLabel {
+  flex: 1;
+  padding: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+
+  border-radius: 5px;
+}
+
+.rSpan {
+  flex: 3;
+  height: 22px;
+  padding: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.rContainer h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rContainer p {
+  display: flex;
+  justify-content: center;
+  justify-content: start;
+}
+
+.rClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.rItem {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.rInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rTitle {
+  font-weight: 500;
+}
+
+.rDesc {
+  font-weight: 300;
+}
+
+.rMax {
+  font-size: 12px;
+}
+
+.rPrice {
+  font-weight: 500;
+}
+
+.rSelectRooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 8px;
+  color: gray;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+}
+
+.rButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.rButton :hover {
+  background-color: wheat;
+}
+
+.checkForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
